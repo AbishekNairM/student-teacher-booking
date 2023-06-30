@@ -1,0 +1,102 @@
+/* Reset default styles */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  
+  /* Apply purple background theme */
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: purple; /* Purple background color */
+    color: #FFFFFF;
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: black;
+    color: #FFFFFF;
+    padding: 10px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  /* Content styles */
+  #login-page {
+    max-width: 500px;
+    margin: 0 auto;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: purple; /* Purple background color */
+    color: #FFFFFF;
+  }
+  
+  #login-page h2 {
+    margin-bottom: 20px;
+  }
+  
+  #login-page input[type="text"],
+  #login-page input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    background-color: #333333;
+    color: #FFFFFF;
+  }
+  
+  #login-page p {
+    margin-bottom: 10px;
+  }
+  
+  #login-page input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+  #login-page button#login-btn {
+    background-color: purple; /* Purple background color */
+    color: #FFFFFF;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  #login-page p a {
+    color: purple; /* Purple color */
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: black;
+    color: #FFFFFF;
+    padding: 10px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+  }
+  
+  /* Adjustments for small content */
+  @media (max-height: 600px) {
+    body {
+      flex-direction: column;
+    }
+  
+    #login-page {
+      margin-bottom: 50px;
+    }
+  }
+  
+  

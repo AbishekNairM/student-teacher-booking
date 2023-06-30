@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Student-Teacher Appointment System</title>
+  <link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+<body>
+  <script src="https://www.gstatic.com/firebasejs/9.0.2/firebase-app.js" type="module"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.0.2/firebase-database.js" type="module"></script>
+  <div id=header>
+  <header>
+    <h1>Student-Teacher Appointment System</h1>
+  </header>
+  </div>
+
+  <div id="login-page">
+    <h2>Login</h2>
+    <input type="text" id="username" placeholder="Username">
+    <input type="password" id="password" placeholder="Password">
+    <p>Select user role:</p>
+    <input type="checkbox" id="student-checkbox" value="student">
+    <label for="student-checkbox">Student</label>
+    <input type="checkbox" id="teacher-checkbox" value="teacher">
+    <label for="teacher-checkbox">Teacher</label>
+    <input type="checkbox" id="admin-checkbox" value="admin">
+    <label for="admin-checkbox">Admin</label>
+    <button id="login-btn">Login</button>
+    <p>Don't have an account? <a href="Student/register.html">New Student</a></p>
+  </div>
+  <div id=footer>
+  <footer>
+    <p>&copy; 2023 Student-Teacher Appointment System | Email: <a href="mailto:abisheknair.m1999@gmail.com">abisheknair.m1999@gmail.com</a> | Address: ABC street | Phone no: 123456789</p>
+  </footer>
+</div>
+  <script src="js/app.js" type="module"></script>
+</body>
+</html>
